@@ -12,7 +12,6 @@ public class Array_Sum {
 		}
 		for(int j=0;j<a.length;j++)
 		{
-			System.out.println("j%2"+j%2);
 			if(j%2==0)
 			{
 				sum = sum + a[j];

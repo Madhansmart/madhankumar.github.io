@@ -9,15 +9,15 @@ public class Largest_array_element {
 		{
 			a[i] = x.nextInt();
 		}
-		int small = 0;
+		int large = 0;
 		for(int i=1;i<N;i++)
 		{
-			if(a[small] <=a[i])
+			if(a[large] <=a[i])
 			{
-				small = i;
+				large = i;
 			}
 		}
-		System.out.println(a[small]);
+		System.out.println(a[large]);
 
 	}
 

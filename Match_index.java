@@ -8,13 +8,19 @@ public class Match_index {
         {
             arr[i] = scan.nextInt();
         }
+	    int count =0;
         for(int j=0; j<N; j++)
         {
             if(j == arr[j])
             {
                 System.out.print(arr[j] + " ");
-            }
+		    count++;
+            }		
         }
+	    if(count == 0)
+	    {
+		System.out.println("-1");    
+	    }
     }
 }
 	

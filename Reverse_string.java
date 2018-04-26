@@ -7,7 +7,7 @@ public class Reverse_string {
 	        String str[] = s.split("\\s");	        	        
 	        for(int i=0; i<str.length; i++)
 	        {
-	        	for(int j=str[0].length()-1; j>=0; j--)
+	        	for(int j=str[i].length()-1; j>=0; j--)
 	        	{
 	        		System.out.print(str[i].charAt(j));
 	        	}

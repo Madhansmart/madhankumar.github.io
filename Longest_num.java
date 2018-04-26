@@ -10,7 +10,7 @@ public class Longest_num {
 	            arr[i] = scan.nextInt();
 	        }
 	        Arrays.sort(arr);
-	        for(int j=arr.length-1; j>0; j--)
+	        for(int j=arr.length-1; j>=0; j--)
 	        {
 	            System.out.print(arr[j]);
 	        }
